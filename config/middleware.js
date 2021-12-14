@@ -2,7 +2,8 @@ module.exports = {
   //...
   settings: {
     cors: {
-      origin: ['http://localhost:1337', 'http://localhost:7777'],
+      origin: ['http://localhost:1337', 'http://localhost:7777', 
+    ],
     },
     // 10 Mb max upload file size
     parser: {

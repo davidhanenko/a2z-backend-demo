@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "size_prices",
+  "info": {
+    "name": "size_price"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "size": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

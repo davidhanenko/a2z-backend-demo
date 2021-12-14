@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items_categories",
+  "info": {
+    "name": "items category",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category_title": {
+      "type": "string"
+    },
+    "single_items": {
+      "collection": "single-item"
+    }
+  }
+}

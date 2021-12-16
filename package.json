@@ -11,6 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "graphql-iso-date": "^3.6.1",
+    "graphql-type-long": "^0.1.1",
     "knex": "0.21.18",
     "pg": "8.5.1",
     "pg-connection-string": "^2.5.0",

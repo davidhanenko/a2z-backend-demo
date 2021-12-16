@@ -5,5 +5,4 @@
 .DS_Store
 *.log
 .cache
-package-lock.json
 
